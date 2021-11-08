@@ -11,6 +11,7 @@ h1{
 }
 p{
     margin-bottom: 15px;
+    color: dimgray;
 }
 
 .name-highlight {
@@ -28,11 +29,11 @@ p{
     width: 100%;
 }
 
-.hero{
+section.hero{
     height: 500px;
     background-image: url("/images/top-banner.png");
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding: 100px 0 150px 0;
 }
 .link_button{
     text-decoration: none;
@@ -42,4 +43,45 @@ p{
     color: white;
     font-weight: 500;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+
+section.dream-area{
+    height: 500px;
+    margin-top: 150px;
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+section.exprience{
+    margin-top: 100px;
+    height: 300px;
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-exprience{
+    box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    background-color: white;
+    padding-top: 30px;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,  lightsalmon , tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    padding: 50px 0 30px 0;
 }
